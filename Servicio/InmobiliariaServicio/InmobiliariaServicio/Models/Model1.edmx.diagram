@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7149bed30cd146839d1ceb78d1b58fef" Name="Diagram1">
+        <EntityTypeShape EntityType="INMOBILIARIAModel.ARRENDAMIENTO" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.ASESOR" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.CIUDAD" Width="1.5" PointX="1.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.CLIENTE" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.CONSULTOR" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.DUENIO" Width="1.5" PointX="1.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.EMPLEADO" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.GERENTE" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.PAGOARRIENDO" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.PAI" Width="1.5" PointX="1.5" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.PROPIEDAD" Width="1.5" PointX="3.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.ROL" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.sysdiagram" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.TIPOPROPIEDAD" Width="1.5" PointX="1.5" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.USUARIO" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INMOBILIARIAModel.VENTA" Width="1.5" PointX="6" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__ARRENDAMI__IDCli__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__ARRENDAMI__IDEmp__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__PAGOARRIE__IDArr__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__ASESOR__CEDULA__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__CIUDAD__IDPais__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__PROPIEDAD__IDCiu__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__VENTA__IDCliente__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__CONSULTOR__CEDUL__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__PROPIEDAD__IdDue__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__GERENTE__CEDULA__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__VENTA__IDEmplead__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__PROPIEDAD__TipoP__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__VENTA__IDPropied__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="INMOBILIARIAModel.FK__USUARIOS__IDRol__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
